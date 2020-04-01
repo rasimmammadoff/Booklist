@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #023D3D;
+    width: 100%;
+}
+
+.main{
+    margin: auto;
+    width: 400px;
+    background-color: #056C6C;
+    color:#fff;
+    border-radius: 5px;
+    margin-top: 5%;
+}
+
+.nav{
+    text-align: center;
+    padding: 10px;
+    background-color: #002828;
+    border-radius: 5px;
+}
+
+.books{
+    display: flex;
+    flex-direction: column;
+}
+
+.book{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #002828;
+}
+
+.no-books{
+    text-align: center;
+    margin-top: 5%;
+    font-size: 20px;
+}
+
+.delete{
+    padding: 5px;
+    border-radius: 5px;
+    background-color:#1C3030;
+    color: #fff;
+    border: none;
+    outline: none;
+    font-size: 20px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10%;
+}
+.text{
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.input-author{
+    padding: 10px;
+    background-color: #0C2626;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-size: 15px;
+    border-radius: 3px;
+    margin-right: 2px;
+    text-align: center;
+}
+
+.input-book{
+    padding: 10px;
+    background-color: #0C2626;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-size: 15px;
+    border-radius: 3px;
+    margin-left: 2px;
+    text-align: center;
+}
+
+.submit{
+    width: 20%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 5px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #0C2626;
+    color: #fff;
+    border: none;
+    outline: none;
+    font-size: 20px;
+
+}
